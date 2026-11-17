@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "actualmod",
+	"version": "${version}",
+	"name": "Actual Minecraft Mod",
+	"description": "Removes Sniffers and Allays from the game.",
+	"authors": [
+		"boytoucher123"
+	],
+	"contact": {
+		"sources": "https://github.com/boytoucher123/actual-minecraft-mod"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.actualmod.ActualMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
